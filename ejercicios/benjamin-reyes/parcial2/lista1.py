@@ -12,7 +12,7 @@ Tienes una lista de celebridades que entrarán por la alfombra roja. El orden es
 
 # Punto no. 1
 invitados = ["Robert Downey Jr.", "Emma Stone", "Cillian Murphy"]
-s
+
 # Punto no. 2
 invitados.append("Zendaya")
 
