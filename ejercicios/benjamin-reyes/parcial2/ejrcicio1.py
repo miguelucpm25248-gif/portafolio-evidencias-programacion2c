@@ -1,4 +1,4 @@
-#benjamin reyes
+#Benjamin Reyes
 #verificar gasolina
 gasolina = float(input("introduce los litros de gasolina: "))
 if gasolina >=5:

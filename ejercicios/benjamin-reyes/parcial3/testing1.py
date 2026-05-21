@@ -1,4 +1,4 @@
-def calcular(*args):
+def calcular_media(*args):
   """
  Devuelve el valor de la media o promedio de un conjuntos de datos numerico
 
@@ -8,6 +8,6 @@ def calcular(*args):
       (float): el valor de los de los datos
   """
   return(sum(*args)/len(*args))
-assert(calcular([3,5,4]) == 4.0)
-assert(calcular([10,10,30]) == 20.0)
-assert(calcular([3,4,5]) ==2.0)
+assert(calcular_media([3,5,4]) == 4.0)
+assert(calcular_media([10,10,30]) == 20.0)
+assert(calcular_media([3,4,5]) ==2.0)

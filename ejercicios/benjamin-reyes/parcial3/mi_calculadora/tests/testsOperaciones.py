@@ -5,11 +5,11 @@ from parcial2.calculadoraBasica import suma, resta, multi, div
 class testOperaciones(unittest.TestCase):
    
    def test_suma_positivos (self):
-      self.assertEqual(suma(300,3),303)
+      self.assertEqual(suma(150,5),155)
 
 
    def test_suma_negativo (self):
-       self.assertEqual(suma(-4, -6),-10)
+       self.assertEqual(suma(-2-4),-6)
 
 
    def test_resta_basica (self):

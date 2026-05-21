@@ -9,9 +9,6 @@ def __init__(self, cliente, cuenta, saldo = 0):
 
 
 
-
-
-
 """
 Son los metodos para realizar operaciones en la cuenta, como depositar y retirar dinero.
 El metodo deposito permite agregar dinero a la cuenta, mientras que el metodo retirar permite sacar dinero
@@ -50,9 +47,5 @@ def retirar(self, cantidad):
 
 
 
-def main():
-   pass
-if __name__=="__main__":
-   main()
 
 
